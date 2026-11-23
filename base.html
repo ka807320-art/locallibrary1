@@ -1,0 +1,11 @@
+<!doctype html>
+<html lang="uk">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% block title %}LocalLibrary{% endblock %}</title>
+<style>
+body{font-family:Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 20px;line-height:1.6;color:#222}
+nav a{margin-right:16px} .panel{background:#f3f6f8;padding:18px;border-radius:8px}
+</style></head>
+<body><nav><a href="/">Головна</a><a href="/admin/">Django Admin</a></nav>
+{% block content %}{% endblock %}
+</body></html>

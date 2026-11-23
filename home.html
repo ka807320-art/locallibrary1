@@ -1,0 +1,12 @@
+{% extends "catalog/base.html" %}
+{% block title %}LocalLibrary{% endblock %}
+{% block content %}
+<h1>LocalLibrary</h1>
+<p>Вітаємо у бібліотеці LocalLibrary!</p>
+<div class="panel">
+<p>Книг: <strong>{{ book_count }}</strong></p>
+<p>Авторів: <strong>{{ author_count }}</strong></p>
+<p>Мов: <strong>{{ language_count }}</strong></p>
+<p>Для керування каталогом відкрийте <a href="/admin/">адміністративну панель</a>.</p>
+</div>
+{% endblock %}
